@@ -1,0 +1,5 @@
+@import 'mixins';
+
+@include font-face(ralewaybold, '../fonts/raleway-bold', bold, normal, woff2 woff);
+@include font-face(ralewaylight, '../fonts/raleway-light', lighter, normal, woff2 woff);
+@include font-face(ralewayregular, '../fonts/raleway-regular', normal, normal, woff2 woff);

@@ -1,0 +1,19 @@
+@import 'vendors';
+@import 'vars';
+
+@import '../includes/header';
+
+
+body {
+    font-family: $font-main;
+    color: $primary-color;
+}
+
+h1 span {
+    font-family: $font-bold;
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+}
